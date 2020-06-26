@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="mainDiv">
+
+        <div>
+            <h1 class="myHeading">
+                My First Calculator made with Javascript
+            </h1>
+        </div>
+
+        <div class="calcDiv">
+
+            <div>
+                <input id="result" type="text" name="text" value="" class="myInput">
+            </div>
+
+
+            <div>
+                <button class="widthBtn" onclick="clearFunction()">C</button>
+            </div>
+
+
+            <div>
+                    <button onclick="getNumber('7')">7</button>
+                    <button onclick="getNumber('8')">8</button>
+                    <button onclick="getNumber('9')">9</button>
+                    <button onclick="getNumber('+')">+</button>
+            </div>
+
+
+            <div>
+                    <button onclick="getNumber('4')">4</button>    
+                    <button onclick="getNumber('5')">5</button>
+                    <button onclick="getNumber('6')">6</button>
+                    <button onclick="getNumber('-')">-</button>
+            </div>
+
+
+            <div> 
+                    <button onclick="getNumber('1')">1</button>
+                    <button onclick="getNumber('2')">2</button>
+                    <button onclick="getNumber('3')">3</button>
+                    <button onclick="getNumber('*')">X</button>
+            </div>
+
+
+            <div>             
+                    <button onclick="getNumber('0')" class="resultBtn">0</button>
+                    <button onclick="getNumber('/')" class="resultBtn">/</button>
+            </div>
+
+
+            <div>
+                    <button onclick="getResult()" class="widthBtn">=</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
